@@ -1,12 +1,15 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './component/NavBar';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import Nav from './component/Nav/nav';
+import Footer from './component/Footer/index';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Nav/>
+      <Footer/>
       
     </div>
   );
